@@ -44,7 +44,11 @@ gulp.task('sprite', function (cb) {
     cssName: 'sprite.scss'
   }));
   spriteData.img.pipe(gulp.dest('build/images/'));
+<<<<<<< HEAD
   spriteData.css.pipe(gulp.dest('source/styles/global/'));
+=======
+  spriteData.css.pipe(gulp.dest('sourсe/styles/global/'));
+>>>>>>> bc24760aa8ce2f9e06745052d09981bf8286b9d1
   cb();
 });
 
