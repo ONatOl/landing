@@ -44,7 +44,7 @@ gulp.task('sprite', function (cb) {
     cssName: 'sprite.scss'
   }));
   spriteData.img.pipe(gulp.dest('build/images/'));
-  spriteData.css.pipe(gulp.dest('sourse/styles/global/'));
+  spriteData.css.pipe(gulp.dest('sourсe/styles/global/'));
   cb();
 });
 
